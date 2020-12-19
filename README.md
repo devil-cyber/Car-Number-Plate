@@ -8,20 +8,18 @@
 
 > This is a tensorflow based object detection model that take car image as input and return the coordinate of the bounding boxes across the number plate of the car. After detecting the number plate will crop the number plate image using the cordinate and open-cv, then after that image is feed to OCR api that returns the number plate data.
 
-### 🏠 [Homepage](https://github.com/numberplate)
-
-### ✨ [Demo](http://manikant.codes)
-
+### This project has been divided into two part
+- API
+- Webpage
+The API take base64 image as input and return number plate as output and the webpage has been intgreated with this API using javascript XHR request.
 ## Install
 
 ```sh
+# Create enivornment using python pipvenv or conda then install all required file
 pip install -r requirements.txt
-```
-
-## Usage
-
-```sh
+# To run the server follow the below command
 python rest-server.py
+# Now go inside webpage folder and open index.html file for the demo or you can used postman
 ```
 
 ## Author
