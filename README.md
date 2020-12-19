@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> This is a tensorflow based object detection model that take car image as input and return the coordinate of the bounding boxes across the number plate of the car. After detecting the number plate will crop the number plate image using the cordinate and open-cv, then after that image is feed to OCR api that returns the number plate data.
+> This is a tensorflow SSD based object detection model that take car image as input and return the coordinate of the bounding boxes across the number plate of the car. After detecting the number plate will crop the number plate image using the cordinate and open-cv, then after that image is feed to OCR api that returns the number plate data.
 
 
 ![DEMO](https://github.com/devil-cyber/Car-Number-Plate/blob/master/images/ezgif-3-34b8c823a58d.gif)
