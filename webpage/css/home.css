@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --primary-color:#111827;
+    --secondry-color:whitesmoke;
+    --link-color:#10B981;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:var(--primary-color);
+    color:var(--secondry-color);
+}
+ 
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+ 
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.list-inline a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navigation {
+    background-color: purple;
+    color: white;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.navigation .unordered {
+    text-align: right;
+}
+
+.container {
+    padding: 1rem 1rem;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.link-active {
+    color: grey;
+}
+.unordered li a:hover{
+color:var(--link-color);
+cursor: pointer;
+}
+.matter{
+    text-align: center;
+    padding:3rem .5rem;
+}
+.vote_image{
+    height:300px;
+    width:400px;
+    padding-top: 30px;
+    margin: auto;
+
+}
+.container2{
+ padding:2rem 8rem;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ margin:5rem 2rem;
+}
+ 
+#imagedata{
+    background-color:var(--link-color);
+    padding:1rem 3rem;
+    border:none;
+    border-radius: 50px;
+    color:var(--secondry-color);
+    font-size:16px;
+}
+.button_click,.image_upload{
+padding:.5rem 2rem;
+margin:0 10px;
+}
+#x{
+    text-align: center;
+    margin-top: 2rem;
+}
+button{
+    background-color:var(--link-color);
+    padding:1rem 3rem;
+    border:none;
+    border-radius: 50px;
+    color:var(--secondry-color);
+    font-size:16px;
+    cursor: pointer;
+}
+#brand-link{
+    text-decoration: none;
+    color:aliceblue;
+}
