@@ -2,7 +2,7 @@ import base64
 import requests
 import json
 import re
-# give google ocr api key here
+# add Google OCR API
 url = 'https://vision.googleapis.com/v1/images:annotate?key='
 
 # AIzaSyDrfUf8BMPMRcHQzAi1h4MZ56pGPeIeNMs
